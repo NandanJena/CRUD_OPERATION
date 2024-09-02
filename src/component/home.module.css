@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid white;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#myForm{
+    height:86vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myForm>form{
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 1px 2px 20px white;
+    border-radius: 15px;
+    
+    
+}
+input{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding: 8px;
+    /* box-shadow: 1px 2px 5px white; */
+    
+}
+input::placeholder{
+    color:black;
+}
+button{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+
+    
+}
+#myTable{
+    height: 86vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+}
+table{
+    height: 200px;
+    width: 250px;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 1px solid white;
+    margin-left: 10px;
+    
+
+}
+tr{
+    margin-top: 80px;
+}
+#abc{
+    padding: 6px;
+    margin-left: 30px;
+}
+#ab{
+    padding: 6px;
+    margin-left: -120px;
+}
+h3{
+    margin-left: 30px;
+}
+h4{
+    color: white;
+    margin-left: 90px;
+    margin-top: 13px;
+    font-size: 20px;
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
